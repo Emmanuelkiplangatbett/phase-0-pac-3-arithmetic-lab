@@ -11,20 +11,21 @@ function divide(a,b) {
     return a / b;
 }
 function increment(a){
-    return ++a;
+    a++;
+    return a;
 }
 function decrement(b) {
-    return --b;
+    b--;
+    return b;
 }
 function makeInt(a){
     return a;
 }
 function makeInt(n){
-  (parseInt(n,10))
-  return(parseInt(n,10))
+  return(parseInt(n,10));
 }
+
 function preserveDecimal(n){
-   (parseFloat(n,10))
-   return(parseFloat(n,10)) 
+   return(parseFloat(n)); 
 }
 
